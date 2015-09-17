@@ -1,0 +1,39 @@
+{
+  "name": "react-webpack-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    // "start": "node node_modules/.bin/webpack-dev-server --content-base app",
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": git,
+    "url": "https://github.com/ninohero/react-flux-mongo"
+  },
+  "author": "ninohero",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^1.3.0",
+    "react-tools": "^0.13.3",
+    "stylus-loader": "^1.3.0",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  },
+  "dependencies": {
+    "alt": "^0.17.3",
+    "async": "^1.4.2",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.1.7",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "serve-favicon": "^2.3.0"
+  }
+}
